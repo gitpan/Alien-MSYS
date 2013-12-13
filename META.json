@@ -1,0 +1,56 @@
+{
+   "abstract" : "Tools required for automake scripts in Windows",
+   "author" : [
+      "Graham Ollis <plicease@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.133380",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alien-MSYS",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Archive::Zip" : "0",
+            "File::ShareDir" : "0",
+            "HTTP::Tiny" : "0",
+            "perl" : "5.008"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "FindBin" : "0",
+            "Test::More" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/plicease/alien-msys/issues"
+      },
+      "homepage" : "http://perl.wdlabs.com/Alien-MSYS/",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/plicease/alien-msys.git",
+         "web" : "https://github.com/plicease/alien-msys"
+      }
+   },
+   "version" : "0.04"
+}
+
