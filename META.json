@@ -1,10 +1,10 @@
 {
-   "abstract" : "Tools required for automake scripts in Windows",
+   "abstract" : "Tools required for GNU style configure scripts on Windows",
    "author" : [
       "Graham Ollis <plicease@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.006, CPAN::Meta::Converter version 2.133380",
+   "generated_by" : "Dist::Zilla version 5.015, CPAN::Meta::Converter version 2.141170",
    "license" : [
       "perl_5"
    ],
@@ -15,6 +15,9 @@
    "name" : "Alien-MSYS",
    "prereqs" : {
       "build" : {
+         "recommends" : {
+            "Win32::Shortcut" : "0"
+         },
          "requires" : {
             "Module::Build" : "0.3601"
          }
@@ -25,8 +28,12 @@
          }
       },
       "runtime" : {
+         "recommends" : {
+            "Win32::Shortcut" : "0"
+         },
          "requires" : {
             "Archive::Zip" : "0",
+            "File::HomeDir" : "0",
             "File::ShareDir" : "0",
             "HTTP::Tiny" : "0",
             "perl" : "5.008"
@@ -34,7 +41,6 @@
       },
       "test" : {
          "requires" : {
-            "FindBin" : "0",
             "Test::More" : "0"
          }
       }
@@ -51,6 +57,6 @@
          "web" : "https://github.com/plicease/alien-msys"
       }
    },
-   "version" : "0.04"
+   "version" : "0.05"
 }
 
