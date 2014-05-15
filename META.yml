@@ -26,4 +26,4 @@ resources:
   bugtracker: https://github.com/plicease/alien-msys/issues
   homepage: http://perl.wdlabs.com/Alien-MSYS/
   repository: git://github.com/plicease/alien-msys.git
-version: '0.06'
+version: '0.07'
